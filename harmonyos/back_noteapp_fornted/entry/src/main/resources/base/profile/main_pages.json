@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/login",
+    "pages/login",
+    "pages/register",
+    "components/Book",
+    "components/Detail"
+  ]
+}

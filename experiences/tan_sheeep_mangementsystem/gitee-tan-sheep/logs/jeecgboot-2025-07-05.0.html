@@ -1,0 +1,2490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat Jul 05 19:21:03 CST 2025</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:21:03,311</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.5.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Version.java</td>
+<td class="LineOfCaller">21</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:21:03,333</td>
+<td class="Message">Starting JeecgSystemApplication using Java 17.0.11 on Dragon with PID 21128 (D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 朱小龙 in D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:21:03,334</td>
+<td class="Message">The following 1 profile is active: &quot;dev&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">638</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2025-07-05 19:21:04,693</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist</td>
+<td class="MethodOfCaller">refresh</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">599</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:21:04,700</td>
+<td class="Message">
+
+Error starting ApplicationContext. To display the conditions report re-run your application with &#39;debug&#39; enabled.</td>
+<td class="MethodOfCaller">logMessage</td>
+<td class="FileOfCaller">ConditionEvaluationReportLoggingListener.java</td>
+<td class="LineOfCaller">136</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2025-07-05 19:21:04,737</td>
+<td class="Message">Application run failed</td>
+<td class="MethodOfCaller">reportFailure</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">818</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:38)
+<br />Caused by: java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:110)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.ResourcePropertySource.&lt;init&gt;(ResourcePropertySource.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:465)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:279)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 11 common frames omitted
+</td></tr></table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat Jul 05 19:26:05 CST 2025</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:26:05,273</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.5.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Version.java</td>
+<td class="LineOfCaller">21</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:26:05,308</td>
+<td class="Message">Starting JeecgSystemApplication using Java 17.0.11 on Dragon with PID 22984 (D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 朱小龙 in D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:26:05,308</td>
+<td class="Message">The following 1 profile is active: &quot;dev&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">638</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2025-07-05 19:26:06,374</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist</td>
+<td class="MethodOfCaller">refresh</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">599</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:26:06,378</td>
+<td class="Message">
+
+Error starting ApplicationContext. To display the conditions report re-run your application with &#39;debug&#39; enabled.</td>
+<td class="MethodOfCaller">logMessage</td>
+<td class="FileOfCaller">ConditionEvaluationReportLoggingListener.java</td>
+<td class="LineOfCaller">136</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2025-07-05 19:26:06,413</td>
+<td class="Message">Application run failed</td>
+<td class="MethodOfCaller">reportFailure</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">818</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:38)
+<br />Caused by: java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:110)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.ResourcePropertySource.&lt;init&gt;(ResourcePropertySource.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:465)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:279)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 11 common frames omitted
+</td></tr></table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat Jul 05 19:27:07 CST 2025</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:27:07,249</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.5.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Version.java</td>
+<td class="LineOfCaller">21</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:27:07,270</td>
+<td class="Message">Starting JeecgSystemApplication using Java 17.0.11 on Dragon with PID 26940 (D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 朱小龙 in D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:27:07,271</td>
+<td class="Message">The following 1 profile is active: &quot;dev&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">638</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2025-07-05 19:27:08,173</td>
+<td class="Message">Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist</td>
+<td class="MethodOfCaller">refresh</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">599</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:27:08,219</td>
+<td class="Message">
+
+Error starting ApplicationContext. To display the conditions report re-run your application with &#39;debug&#39; enabled.</td>
+<td class="MethodOfCaller">logMessage</td>
+<td class="FileOfCaller">ConditionEvaluationReportLoggingListener.java</td>
+<td class="LineOfCaller">136</td>
+</tr>
+
+<tr class="error odd">
+<td class="Level">ERROR</td>
+<td class="Date">2025-07-05 19:27:08,248</td>
+<td class="Message">Application run failed</td>
+<td class="MethodOfCaller">reportFailure</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">818</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [org.jeecg.JeecgSystemApplication]; nested exception is java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.JeecgSystemApplication.main(JeecgSystemApplication.java:38)
+<br />Caused by: java.io.FileNotFoundException: class path resource [config/default-spring-doc.properties] cannot be opened because it does not exist
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:110)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.ResourcePropertySource.&lt;init&gt;(ResourcePropertySource.java:67)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:465)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:279)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 11 common frames omitted
+</td></tr></table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sat Jul 05 19:36:24 CST 2025</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:25,072</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.5.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Version.java</td>
+<td class="LineOfCaller">21</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:25,096</td>
+<td class="Message">Starting JeecgSystemApplication using Java 17.0.11 on Dragon with PID 26056 (D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 朱小龙 in D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:25,097</td>
+<td class="Message">The following 1 profile is active: &quot;dev&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">638</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,540</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">262</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,545</td>
+<td class="Message">Bootstrapping Spring Data Redis repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">132</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,720</td>
+<td class="Message">Finished Spring Data repository scanning in 153 ms. Found 0 Redis repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">201</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,869</td>
+<td class="Message"> ******************* init miniDao config [ begin ] *********************** </td>
+<td class="MethodOfCaller">miniDaoBeanScannerConfigurer</td>
+<td class="FileOfCaller">MinidaoAutoConfiguration.java</td>
+<td class="LineOfCaller">23</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,870</td>
+<td class="Message"> ------ minidao.base-package ------- org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*</td>
+<td class="MethodOfCaller">miniDaoBeanScannerConfigurer</td>
+<td class="FileOfCaller">MinidaoAutoConfiguration.java</td>
+<td class="LineOfCaller">25</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:27,871</td>
+<td class="Message"> *******************  init miniDao config  [ end ] *********************** </td>
+<td class="MethodOfCaller">miniDaoBeanScannerConfigurer</td>
+<td class="FileOfCaller">MinidaoAutoConfiguration.java</td>
+<td class="LineOfCaller">42</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,566</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportCategoryDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,567</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,567</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,568</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,568</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,568</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,568</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportJobDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportLogDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,569</td>
+<td class="Message">register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,570</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.JimuDragCategoryDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,570</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.JimuDragMapDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,570</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.JimuReportIconLibDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,570</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragCompDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetHeadDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetItemDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetParamDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragDataSourceDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageCompDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,571</td>
+<td class="Message">register minidao name is { org.jeecg.modules.drag.dao.OnlDragShareDao }</td>
+<td class="MethodOfCaller">doScan</td>
+<td class="FileOfCaller">MiniDaoClassPathMapperScanner.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,574</td>
+<td class="Message">Cannot enhance @Configuration bean definition &#39;com.yomahub.liteflow.springboot.config.LiteflowMainAutoConfiguration&#39; since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as &#39;static&#39;.</td>
+<td class="MethodOfCaller">enhanceConfigurationClasses</td>
+<td class="FileOfCaller">ConfigurationClassPostProcessor.java</td>
+<td class="LineOfCaller">426</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,955</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,957</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,976</td>
+<td class="Message">Bean &#39;org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,977</td>
+<td class="Message">Bean &#39;org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,980</td>
+<td class="Message">Bean &#39;management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,982</td>
+<td class="Message">Bean &#39;prometheusConfig&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,983</td>
+<td class="Message">Bean &#39;collectorRegistry&#39; of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,984</td>
+<td class="Message">Bean &#39;org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,985</td>
+<td class="Message">Bean &#39;micrometerClock&#39; of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:28,998</td>
+<td class="Message">Bean &#39;prometheusMeterRegistry&#39; of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,000</td>
+<td class="Message">Bean &#39;micrometerOptions&#39; of type [io.lettuce.core.metrics.MicrometerOptions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,001</td>
+<td class="Message">Bean &#39;lettuceMetrics&#39; of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$660/0x0000020b016eb468] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,243</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,354</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,359</td>
+<td class="Message">Bean &#39;jeecgBaseConfig&#39; of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,362</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$720ae89d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,893</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,903</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$EnhancerBySpringCGLIB$$944057f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,920</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:29,971</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,043</td>
+<td class="Message">===============(1)创建缓存管理器RedisCacheManager</td>
+<td class="MethodOfCaller">redisCacheManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">288</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,046</td>
+<td class="Message">===============(2)创建RedisManager,连接Redis..</td>
+<td class="MethodOfCaller">redisManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">309</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,052</td>
+<td class="Message">Bean &#39;redisManager&#39; of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,059</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,085</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,109</td>
+<td class="Message">Bean &#39;com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration&#39; of type [com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration$$EnhancerBySpringCGLIB$$d9407920] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,120</td>
+<td class="Message">Bean &#39;liteflow-com.yomahub.liteflow.springboot.LiteflowProperty&#39; of type [com.yomahub.liteflow.springboot.LiteflowProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,126</td>
+<td class="Message">Bean &#39;liteflow.monitor-com.yomahub.liteflow.springboot.LiteflowMonitorProperty&#39; of type [com.yomahub.liteflow.springboot.LiteflowMonitorProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,129</td>
+<td class="Message">Bean &#39;liteflowConfig&#39; of type [com.yomahub.liteflow.property.LiteflowConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,136</td>
+<td class="Message">Bean &#39;com.yomahub.liteflow.spi.spring.SpringAware&#39; of type [com.yomahub.liteflow.spi.spring.SpringAware] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,145</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$25e77e54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,150</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">376</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,483</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">ServletContextImpl.java</td>
+<td class="LineOfCaller">389</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,483</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 5144 ms</td>
+<td class="MethodOfCaller">prepareWebApplicationContext</td>
+<td class="FileOfCaller">ServletWebServerApplicationContext.java</td>
+<td class="LineOfCaller">292</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,665</td>
+<td class="Message"> Init JimuReport Config [ Token Interceptor &amp; Resource Locations ] </td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">JimuReportConfiguration.java</td>
+<td class="LineOfCaller">130</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:30,674</td>
+<td class="Message">
+================================================================================================
+            _ _ __  __       ____                       _   
+           | (_)  \/  |_   _|  _ \ ___ _ __   ___  _ __| |_ 
+        _  | | | |\/| | | | | |_) / _ \ &#39;_ \ / _ \| &#39;__| __|
+       | |_| | | |  | | |_| |  _ &lt;  __/ |_) | (_) | |  | |_ 
+        \___/|_|_|  |_|\__,_|_| \_\___| .__/ \___/|_|   \__|
+                                      |_|                   
+		Version: 1.9.5
+		打造 “简单|智能|专业 ” 的数据可视化报表。
+		官网：https://jimureport.com
+================================================================================================
+</td>
+<td class="MethodOfCaller">print</td>
+<td class="FileOfCaller">LogoPrinter.java</td>
+<td class="LineOfCaller">34</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,306</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">673</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,307</td>
+<td class="Message">dynamic-datasource - add a datasource named [master] success</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">154</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,307</td>
+<td class="Message">dynamic-datasource initial loaded [1] datasource,primary datasource named [master]</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">237</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,343</td>
+<td class="Message">Scanning for classpath resources at &#39;classpath:db/callback&#39; ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,343</td>
+<td class="Message">Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,343</td>
+<td class="Message">Unable to resolve location classpath:db/callback.</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,343</td>
+<td class="Message">AWS SDK available: false</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,343</td>
+<td class="Message">Google Cloud Storage available: false</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,344</td>
+<td class="Message">Scanning for classpath resources at &#39;classpath:flyway/sql/mysql&#39; ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,344</td>
+<td class="Message">Determining location urls for classpath:flyway/sql/mysql using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,344</td>
+<td class="Message">Scanning URL: file:/D:/idea_java_project/experiences/tan_sheeep_mangementsystem/gitee-tan-sheep/tan-yang-management-system/JeecgBoot-master/jeecg-boot/jeecg-module-system/jeecg-system-start/target/classes/flyway/sql/mysql</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,345</td>
+<td class="Message">JBoss VFS v2 available: false</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,346</td>
+<td class="Message">Scanning starting at classpath root in filesystem: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,346</td>
+<td class="Message">Scanning for resources in path: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql (flyway/sql/mysql)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,346</td>
+<td class="Message">Scanning for resources in path: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql\backup (flyway/sql/mysql)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,347</td>
+<td class="Message">Found resource: flyway/sql/mysql/README.md</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,348</td>
+<td class="Message">Found resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,348</td>
+<td class="Message">Found resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,348</td>
+<td class="Message">Found resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,349</td>
+<td class="Message">Found resource: flyway/sql/mysql/backup/V20240403.zip</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,350</td>
+<td class="Message">Scanning for classes at classpath:flyway/sql/mysql</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,644</td>
+<td class="Message">Flyway Community Edition 7.15.0 by Redgate</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">44</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,645</td>
+<td class="Message">Database: jdbc:mysql://127.0.0.1:3306/tan_yang_management (MySQL 8.4)</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">44</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,645</td>
+<td class="Message">Driver  : MySQL Connector/J mysql-connector-java-8.0.27 (Revision: e920b979015ae7117d60d72bcc8f077a839cd791)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,719</td>
+<td class="Message">DDL Transactions Supported: false</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,723</td>
+<td class="Message">Schemas: </td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,725</td>
+<td class="Message">Default schema: null</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2025-07-05 19:36:31,750</td>
+<td class="Message">Flyway upgrade recommended: MySQL 8.4 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.0.</td>
+<td class="MethodOfCaller">warn</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">48</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,753</td>
+<td class="Message">Scanning for SQL callbacks ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,753</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,753</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,753</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,793</td>
+<td class="Message">Validating migrations ...</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,798</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,798</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,798</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,809</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,810</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql (filename: V3.8.0_2__airag_init_db.sql)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,810</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql (filename: V3.8.0_1__airag_add_menu.sql)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,810</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,810</td>
+<td class="Message">Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,863</td>
+<td class="Message">Successfully validated 3 migrations (execution time 00:00.068s)</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">44</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,882</td>
+<td class="Message">Current version of schema `tan_yang_management`: 3.8.0.2</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">44</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,884</td>
+<td class="Message">Schema `tan_yang_management` is up to date. No migration necessary.</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">44</td>
+</tr>
+
+<tr class="debug even">
+<td class="Level">DEBUG</td>
+<td class="Date">2025-07-05 19:36:31,888</td>
+<td class="Message">Memory usage: 106 of 214M</td>
+<td class="MethodOfCaller">debug</td>
+<td class="FileOfCaller">Slf4jLog.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:31,889</td>
+<td class="Message">【数据库升级】平台集成了MySQL库的Flyway，数据库版本自动升级! </td>
+<td class="MethodOfCaller">lambda$migrate$0</td>
+<td class="FileOfCaller">FlywayConfig.java</td>
+<td class="LineOfCaller">127</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:33,894</td>
+<td class="Message"> --- redis config init --- </td>
+<td class="MethodOfCaller">redisTemplate</td>
+<td class="FileOfCaller">RedisConfig.java</td>
+<td class="LineOfCaller">57</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,377</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1220</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,384</td>
+<td class="Message">Job execution threads will use class loader of thread: main</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">SimpleThreadPool.java</td>
+<td class="LineOfCaller">268</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,410</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,411</td>
+<td class="Message">Quartz Scheduler v.2.3.2 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,418</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,423</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,426</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.2) &#39;MyScheduler&#39; with instanceId &#39;Dragon1751715400383&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,427</td>
+<td class="Message">Quartz scheduler &#39;MyScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1374</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,427</td>
+<td class="Message">Quartz scheduler version: 2.3.2</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1378</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:40,428</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@24af33a1</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2293</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,111</td>
+<td class="Message">component aspect implement[nodeProcessAspect] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">CmpAroundAspectBeanProcess.java</td>
+<td class="LineOfCaller">32</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,826</td>
+<td class="Message">proxy component[classifier] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,847</td>
+<td class="Message">proxy component[end] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,865</td>
+<td class="Message">proxy component[enhanceJava] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,879</td>
+<td class="Message">proxy component[http] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,893</td>
+<td class="Message">proxy component[knowledge] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,905</td>
+<td class="Message">proxy component[llm] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,916</td>
+<td class="Message">proxy component[reply] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,926</td>
+<td class="Message">proxy component[start] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,938</td>
+<td class="Message">proxy component[subflow] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:45,950</td>
+<td class="Message">proxy component[switch] has been found</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">DeclWarpBeanProcess.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:47,715</td>
+<td class="Message"> Init JimuReport Config [ 线程池 ] </td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">JmReportExecutorConfig.java</td>
+<td class="LineOfCaller">42</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:48,008</td>
+<td class="Message"> --- redis config init --- </td>
+<td class="MethodOfCaller">a</td>
+<td class="FileOfCaller">JmDragRedisConfig.java</td>
+<td class="LineOfCaller">31</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:50,160</td>
+<td class="Message">Init Token ignoreAuthUrls Config [ 集合 ]  ：[/openapi/demo/index, /airag/flow/run, /airag/chat/stop/*, /airag/chat/send, /airag/chat/conversation/update/title, /airag/chat/conversations, /airag/chat/conversation/*, /airag/chat/messages, /airag/chat/messages/clear/*, /test/jeecgDemo/html, /airag/app/queryById]</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">IgnoreAuthPostProcessor.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:50,161</td>
+<td class="Message">Init Token ignoreAuthUrls Config [ 耗时 ] ：7毫秒</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">IgnoreAuthPostProcessor.java</td>
+<td class="LineOfCaller">49</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:50,212</td>
+<td class="Message"> Init CodeGenerate Config [ Get Db Config From application.yml ] </td>
+<td class="MethodOfCaller">initCodeGenerateDbConfig</td>
+<td class="FileOfCaller">CodeGenerateDbConfig.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,613</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">58</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,915</td>
+<td class="Message">UT026003: Adding annotated server endpoint class org.jeecg.modules.message.websocket.WebSocket for path /websocket/{userId}</td>
+<td class="MethodOfCaller">addEndpointInternal</td>
+<td class="FileOfCaller">ServerWebSocketContainer.java</td>
+<td class="LineOfCaller">639</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,935</td>
+<td class="Message">UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragChannelWebSocket for path /dragChannelSocket/{token}</td>
+<td class="MethodOfCaller">addEndpointInternal</td>
+<td class="FileOfCaller">ServerWebSocketContainer.java</td>
+<td class="LineOfCaller">639</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,937</td>
+<td class="Message">UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragWebSocket for path /websocket/drag/{chartId}</td>
+<td class="MethodOfCaller">addEndpointInternal</td>
+<td class="FileOfCaller">ServerWebSocketContainer.java</td>
+<td class="LineOfCaller">639</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,937</td>
+<td class="Message">UT026003: Adding annotated server endpoint class org.jeecg.modules.demo.mock.vxe.websocket.VxeSocket for path /vxeSocket/{userId}/{pageId}</td>
+<td class="MethodOfCaller">addEndpointInternal</td>
+<td class="FileOfCaller">ServerWebSocketContainer.java</td>
+<td class="LineOfCaller">639</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:53,990</td>
+<td class="Message">flow info loaded from class config with el,class=com.yomahub.liteflow.parser.sql.SQLXmlELParser</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">LFLog.java</td>
+<td class="LineOfCaller">193</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,065</td>
+<td class="Message">query sql: select id, application_name, chain from airag_flow where status = &#39;enable&#39; and chain is not null</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">LFLog.java</td>
+<td class="LineOfCaller">186</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,080</td>
+<td class="Message">use dataSourceName[dataSource],has found liteflow config</td>
+<td class="MethodOfCaller">getConn</td>
+<td class="FileOfCaller">LiteFlowJdbcUtil.java</td>
+<td class="LineOfCaller">43</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,759</td>
+<td class="Message">starting server: Undertow - 2.2.28.Final</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">Undertow.java</td>
+<td class="LineOfCaller">120</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,783</td>
+<td class="Message">XNIO version 3.8.7.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Xnio.java</td>
+<td class="LineOfCaller">95</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,802</td>
+<td class="Message">XNIO NIO Implementation Version 3.8.7.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">NioXnio.java</td>
+<td class="LineOfCaller">58</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,923</td>
+<td class="Message">JBoss Threads version 3.1.0.Final</td>
+<td class="MethodOfCaller">&lt;clinit&gt;</td>
+<td class="FileOfCaller">Version.java</td>
+<td class="LineOfCaller">52</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:54,982</td>
+<td class="Message">Undertow started on port(s) 8080 (http) with context path &#39;/jeecg-boot&#39;</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">UndertowWebServer.java</td>
+<td class="LineOfCaller">119</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:55,528</td>
+<td class="Message">Will start Quartz Scheduler [MyScheduler] in 1 seconds</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">734</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:55,550</td>
+<td class="Message">Started JeecgSystemApplication in 31.177 seconds (JVM running for 31.958)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:55,555</td>
+<td class="Message"> Init Code Generate Template [ 检测如果是JAR启动，Copy模板到config目录 ] </td>
+<td class="MethodOfCaller">onApplicationEvent</td>
+<td class="FileOfCaller">CodeTemplateInitListener.java</td>
+<td class="LineOfCaller">30</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:55,588</td>
+<td class="Message"> Init Code Generate Template completed in 33 ms</td>
+<td class="MethodOfCaller">onApplicationEvent</td>
+<td class="FileOfCaller">CodeTemplateInitListener.java</td>
+<td class="LineOfCaller">33</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:55,611</td>
+<td class="Message">
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/doc.html
+	External: 	http://172.26.156.211:8080/jeecg-boot/doc.html
+	Swagger文档: 	http://172.26.156.211:8080/jeecg-boot/doc.html
+----------------------------------------------------------</td>
+<td class="MethodOfCaller">main</td>
+<td class="FileOfCaller">JeecgSystemApplication.java</td>
+<td class="LineOfCaller">43</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,016</td>
+<td class="Message">Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">ServletContextImpl.java</td>
+<td class="LineOfCaller">389</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,016</td>
+<td class="Message">Initializing Servlet &#39;dispatcherServlet&#39;</td>
+<td class="MethodOfCaller">initServletBean</td>
+<td class="FileOfCaller">FrameworkServlet.java</td>
+<td class="LineOfCaller">525</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,019</td>
+<td class="Message">Completed initialization in 3 ms</td>
+<td class="MethodOfCaller">initServletBean</td>
+<td class="FileOfCaller">FrameworkServlet.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,528</td>
+<td class="Message">Starting Quartz Scheduler now, after delay of 1 seconds</td>
+<td class="MethodOfCaller">run</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">750</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,719</td>
+<td class="Message">ClusterManager: detected 1 failed or restarted instances.</td>
+<td class="MethodOfCaller">logWarnIfNonZero</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">3644</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,719</td>
+<td class="Message">ClusterManager: Scanning for instance &quot;Dragon1751441904388&quot;&#39;s failed in-progress jobs.</td>
+<td class="MethodOfCaller">clusterRecover</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">3503</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:36:56,739</td>
+<td class="Message">Scheduler MyScheduler_$_Dragon1751715400383 started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:37:26,451</td>
+<td class="Message">获取验证码，Redis key = 2335da7bfc0d3acc168a5ac75080cf81sxuz，checkCode = sxuZ</td>
+<td class="MethodOfCaller">randomImage</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">560</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2025-07-05 19:38:27,339</td>
+<td class="Message">验证码错误，key= 17517154459929lis , Ui checkCode= sxuz, Redis checkCode = null</td>
+<td class="MethodOfCaller">login</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">113</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:38:27,386</td>
+<td class="Message">获取验证码，Redis key = f82a4aa33f401e923723d40e1a7610d4shxw，checkCode = SHXW</td>
+<td class="MethodOfCaller">randomImage</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">560</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,011</td>
+<td class="Message"> 登录接口用户的租户ID = 0</td>
+<td class="MethodOfCaller">setLoginTenant</td>
+<td class="FileOfCaller">SysUserServiceImpl.java</td>
+<td class="LineOfCaller">951</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,326</td>
+<td class="Message">加密操作，Aspect程序耗时：32ms</td>
+<td class="MethodOfCaller">around</td>
+<td class="FileOfCaller">SensitiveDataAspect.java</td>
+<td class="LineOfCaller">76</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,399</td>
+<td class="Message">1 获取用户信息耗时（用户基础信息）17毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">165</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,469</td>
+<td class="Message">2 获取用户信息耗时 (首页面配置)87毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,485</td>
+<td class="Message">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">165</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,541</td>
+<td class="Message">      &gt;&gt;&gt; 1 获取系统字典项耗时（SQL）：55毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">184</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,773</td>
+<td class="Message">      &gt;&gt;&gt; 2 获取系统字典项耗时（Enum）：287毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">188</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,774</td>
+<td class="Message">      &gt;&gt;&gt; end 获取系统字典库总耗时：288毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">190</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,775</td>
+<td class="Message">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">191</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,776</td>
+<td class="Message">3 获取用户信息耗时 (字典数据)394毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">184</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:05,777</td>
+<td class="Message">end 获取用户信息耗时 394毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">189</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:12,208</td>
+<td class="Message">-----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">348</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:12,243</td>
+<td class="Message">begin 获取用户近2个月的系统公告 (通知)52毫秒</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">363</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 19:39:12,255</td>
+<td class="Message">end 获取用户2个月的系统公告 (系统消息)63毫秒</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">371</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:00,376</td>
+<td class="Message">获取验证码，Redis key = 66f2502aae3ce33634c588dd10ba26fckscx，checkCode = kScX</td>
+<td class="MethodOfCaller">randomImage</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">560</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:11,920</td>
+<td class="Message"> 登录接口用户的租户ID = 0</td>
+<td class="MethodOfCaller">setLoginTenant</td>
+<td class="FileOfCaller">SysUserServiceImpl.java</td>
+<td class="LineOfCaller">951</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,041</td>
+<td class="Message">1 获取用户信息耗时（用户基础信息）11毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">165</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,079</td>
+<td class="Message">2 获取用户信息耗时 (首页面配置)49毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,080</td>
+<td class="Message">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">165</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,102</td>
+<td class="Message">      &gt;&gt;&gt; 1 获取系统字典项耗时（SQL）：20毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">184</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,102</td>
+<td class="Message">      &gt;&gt;&gt; 2 获取系统字典项耗时（Enum）：20毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">188</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,103</td>
+<td class="Message">      &gt;&gt;&gt; end 获取系统字典库总耗时：21毫秒</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">190</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,104</td>
+<td class="Message">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</td>
+<td class="MethodOfCaller">queryAllDictItems</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">191</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,105</td>
+<td class="Message">3 获取用户信息耗时 (字典数据)75毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">184</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:12,105</td>
+<td class="Message">end 获取用户信息耗时 75毫秒</td>
+<td class="MethodOfCaller">getUserInfo</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">189</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:15,463</td>
+<td class="Message">-----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">348</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:15,483</td>
+<td class="Message">begin 获取用户近2个月的系统公告 (通知)23毫秒</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">363</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:15,493</td>
+<td class="Message">end 获取用户2个月的系统公告 (系统消息)33毫秒</td>
+<td class="MethodOfCaller">listByUser</td>
+<td class="FileOfCaller">SysAnnouncementController.java</td>
+<td class="LineOfCaller">371</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,208</td>
+<td class="Message">Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units</td>
+<td class="MethodOfCaller">preHandle</td>
+<td class="FileOfCaller">SignAuthInterceptor.java</td>
+<td class="LineOfCaller">36</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,213</td>
+<td class="Message">Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type</td>
+<td class="MethodOfCaller">preHandle</td>
+<td class="FileOfCaller">SignAuthInterceptor.java</td>
+<td class="LineOfCaller">36</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,222</td>
+<td class="Message">Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/inbound_type</td>
+<td class="MethodOfCaller">preHandle</td>
+<td class="FileOfCaller">SignAuthInterceptor.java</td>
+<td class="LineOfCaller">36</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,473</td>
+<td class="Message">Param paramsJsonStr : {}</td>
+<td class="MethodOfCaller">getParamsSign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,476</td>
+<td class="Message">Param paramsJsonStr : {}</td>
+<td class="MethodOfCaller">getParamsSign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,478</td>
+<td class="Message">Param paramsJsonStr : {}</td>
+<td class="MethodOfCaller">getParamsSign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,592</td>
+<td class="Message">Param Sign : E19D6243CB1945AB4F7202A1B00F77D5</td>
+<td class="MethodOfCaller">verifySign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,592</td>
+<td class="Message">Param Sign : E19D6243CB1945AB4F7202A1B00F77D5</td>
+<td class="MethodOfCaller">verifySign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,592</td>
+<td class="Message">Param Sign : E19D6243CB1945AB4F7202A1B00F77D5</td>
+<td class="MethodOfCaller">verifySign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,624</td>
+<td class="Message"> dictCode : inbound_type</td>
+<td class="MethodOfCaller">getDictItems</td>
+<td class="FileOfCaller">SysDictController.java</td>
+<td class="LineOfCaller">185</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,624</td>
+<td class="Message"> dictCode : measurement_units</td>
+<td class="MethodOfCaller">getDictItems</td>
+<td class="FileOfCaller">SysDictController.java</td>
+<td class="LineOfCaller">185</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:26:51,624</td>
+<td class="Message"> dictCode : material_type</td>
+<td class="MethodOfCaller">getDictItems</td>
+<td class="FileOfCaller">SysDictController.java</td>
+<td class="LineOfCaller">185</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,467</td>
+<td class="Message">Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units</td>
+<td class="MethodOfCaller">preHandle</td>
+<td class="FileOfCaller">SignAuthInterceptor.java</td>
+<td class="LineOfCaller">36</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,470</td>
+<td class="Message">Param paramsJsonStr : {}</td>
+<td class="MethodOfCaller">getParamsSign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,471</td>
+<td class="Message">Param Sign : E19D6243CB1945AB4F7202A1B00F77D5</td>
+<td class="MethodOfCaller">verifySign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,471</td>
+<td class="Message">Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type</td>
+<td class="MethodOfCaller">preHandle</td>
+<td class="FileOfCaller">SignAuthInterceptor.java</td>
+<td class="LineOfCaller">36</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,472</td>
+<td class="Message">Param paramsJsonStr : {}</td>
+<td class="MethodOfCaller">getParamsSign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,472</td>
+<td class="Message"> dictCode : measurement_units</td>
+<td class="MethodOfCaller">getDictItems</td>
+<td class="FileOfCaller">SysDictController.java</td>
+<td class="LineOfCaller">185</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,473</td>
+<td class="Message">Param Sign : E19D6243CB1945AB4F7202A1B00F77D5</td>
+<td class="MethodOfCaller">verifySign</td>
+<td class="FileOfCaller">SignUtil.java</td>
+<td class="LineOfCaller">37</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 21:33:32,474</td>
+<td class="Message"> dictCode : material_type</td>
+<td class="MethodOfCaller">getDictItems</td>
+<td class="FileOfCaller">SysDictController.java</td>
+<td class="LineOfCaller">185</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,582</td>
+<td class="Message">Scheduler MyScheduler_$_Dragon1751715400383 paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,610</td>
+<td class="Message">stopping server: Undertow - 2.2.28.Final</td>
+<td class="MethodOfCaller">stop</td>
+<td class="FileOfCaller">Undertow.java</td>
+<td class="LineOfCaller">259</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,642</td>
+<td class="Message">Destroying Spring FrameworkServlet &#39;dispatcherServlet&#39;</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">ServletContextImpl.java</td>
+<td class="LineOfCaller">389</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,708</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">847</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,709</td>
+<td class="Message">Scheduler MyScheduler_$_Dragon1751715400383 shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,709</td>
+<td class="Message">Scheduler MyScheduler_$_Dragon1751715400383 paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,712</td>
+<td class="Message">Scheduler MyScheduler_$_Dragon1751715400383 shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,762</td>
+<td class="Message">dynamic-datasource start closing ....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">211</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,792</td>
+<td class="Message">{dataSource-1} closing ...</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1880</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,848</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1953</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2025-07-05 23:15:45,848</td>
+<td class="Message">dynamic-datasource all closed success,bye</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">215</td>
+</tr>
+</table>
+</body></html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.testdemo.mapper.ScheduledMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.testdemo.domain.Scheduled">
+            <id property="cronId" column="cron_id" jdbcType="VARCHAR"/>
+            <result property="cronName" column="cron_name" jdbcType="VARCHAR"/>
+            <result property="cron" column="cron" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        cron_id,cron_name,cron
+    </sql>
+</mapper>

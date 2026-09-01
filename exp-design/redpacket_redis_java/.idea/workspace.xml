@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73998371-cc18-43ab-9bff-dd5568c1c536" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cloud-demo/Model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-demo/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-demo/service/service-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud-demo/service/service-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/RabbitmqProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/controller/SendMessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/controller/TestCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/exchargeconfig/DirectRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/exchargeconfig/FanoutRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/exchargeconfig/RabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/java/coom/zxl/rabbitmqprovider/demos/exchargeconfig/TopicRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rabbitMqTest/rabbitmq-provider/src/test/java/coom/zxl/rabbitmqprovider/RabbitmqProviderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/Dao/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/Dao/ProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/Dao/impl/ProductDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/eneity/Categories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/eneity/Products.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/java/com/zxl/webexp3/webexp3/servlet/ShowProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/resources/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/content.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/img102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/leftmenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/jsp/topmenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/comp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/gw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/hwphone1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/hwphone2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/hwphone3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/hwphone4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/images/phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/showProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/main/webapp/第三次实验的jsp.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-exp3/src/test/java/JdbcTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/DAO/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/TestDomainConroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/User2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/converter/StringToLocalDateConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/entity/User2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/formatter/LocalDateFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/tools/CaluateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/tools/DbConnectPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/java/com/zxl/webspringmvc/webspringmvc/tools/SequenceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/resources/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/config/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/inputBook.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/inputPerson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/inputUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/ok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/showBook.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/showCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/showPerson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/showUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/jsp/showUser2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/inputcustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/ok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvc/src/main/webapp/testDomainController.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/Filter/CharacterEncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/Filter/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/Listener/MyContextListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/Listener/MyRequestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/interceptor/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/pojo/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/java/com/zxl/springmvcin/webspringmvcin/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/resources/messageResource_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/resources/messageResource_zh.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/config/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/inputPerson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/orderForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/orderOk.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/jsp/showPerson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/listenerTest.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-springmvcIn/src/main/webapp/onlineCount.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2qmWAgH0YCtQi7rdm5roPr9FoYW" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JAR Application.redis_red_envelope-0.0.1-SNAPSHOT.jar.executor": "Run",
+    "JUnit.RedPacketTest.one.executor": "Run",
+    "Maven.redis_red_envelope [clean].executor": "Run",
+    "Maven.redis_red_envelope [org.apache.maven.plugins:maven-jar-plugin:3.4.1:jar].executor": "Run",
+    "Maven.redis_red_envelope [org.apache.maven.plugins:maven-shade-plugin:3.6.0:shade].executor": "Run",
+    "Maven.redis_red_envelope [org.apache.maven.plugins:maven-surefire-report-plugin:3.5.2:report].executor": "Run",
+    "Maven.redis_red_envelope [test].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.RedisRedEnvelopeApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/idea_java project/code/zxl-picture-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="JAR Application.redis_red_envelope-0.0.1-SNAPSHOT.jar">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="RedPacketTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis_red_envelope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kai.redenvelope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kai.redenvelope" />
+      <option name="MAIN_CLASS_NAME" value="com.kai.redenvelope.RedPacketTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="redis_red_envelope-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/redis_red_envelope-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="redpacket_redis_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="redpacket_redis_java" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisRedEnvelopeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="redis_red_envelope" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kai.redenvelope.RedisRedEnvelopeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kai.redenvelope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.redis_red_envelope-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="JUnit.RedPacketTest.one" />
+        <item itemvalue="Spring Boot.RedisRedEnvelopeApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73998371-cc18-43ab-9bff-dd5568c1c536" name="Changes" comment="" />
+      <created>1735268089555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735268089555</updated>
+      <workItem from="1735268090630" duration="2236000" />
+      <workItem from="1735279183622" duration="3697000" />
+      <workItem from="1735286539990" duration="640000" />
+      <workItem from="1735307874198" duration="4064000" />
+      <workItem from="1735355688708" duration="167000" />
+      <workItem from="1735355918059" duration="82000" />
+      <workItem from="1735356011630" duration="5000" />
+      <workItem from="1735382993077" duration="10000" />
+      <workItem from="1743065513115" duration="2290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

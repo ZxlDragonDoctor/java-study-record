@@ -1,0 +1,196 @@
+GET http://localhost:8080/red/packet/rob?userId=4&redId=redis:red:packet:1:13891995886400
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T232549.200.json
+
+###
+
+GET http://localhost:8080/red/packet/rob?userId=3&redId=redis:red:packet:1:13891995886400
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T232511.200.json
+
+###
+
+GET http://localhost:8080/red/packet/rob?userId=2&redId=redis:red:packet:1:13891995886400
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T232251.200.json
+
+###
+
+POST http://localhost:8080/red/packet/hand/out?userId=2&redId=redis:red:packet:1:13891995886400
+Content-Type: application/json;charset=UTF-8
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T232204.400.json
+
+###
+
+POST http://localhost:8080/red/packet/hand/out
+Content-Type: application/json;charset=UTF-8
+Content-Length: 50
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId": 1,
+  "total": 10,
+  "amount": 1000
+}
+
+<> 2024-12-27T231941.200.json
+
+###
+
+GET http://localhost:8080/red/packet/rob?userId=2&redId=redis:red:packet:1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T231020.200.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 50
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":1,
+   "redId":"redis:red:packet:1"
+}
+
+<> 2024-12-27T230804.400.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 50
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":1,
+   "redId":"redis:red:packet:1"
+}
+
+<> 2024-12-27T230702.400.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 50
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":2,
+   "redId":"redis:red:packet:1"
+}
+
+<> 2024-12-27T230524.400.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 65
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":2,
+   "redId":"redis:red:packet:1:11128738973000"
+}
+
+<> 2024-12-27T230516.400.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 65
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":2,
+   "redId":"redis:red:packet:1:11128738973000"
+}
+
+<> 2024-12-27T230356.400.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Content-Length: 65
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+   "userId":2,
+   "redId":"redis:red:packet:1:11128738973000"
+}
+
+<> 2024-12-27T225410.400.json
+
+###
+
+POST http://localhost:8080/red/packet/hand/out
+Content-Type: application/json;charset=UTF-8
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId":1,
+  "total":10,
+  "amount": 1000
+}
+
+<> 2024-12-27T223338.200.json
+
+###
+
+GET http://localhost:8080/red/packet/rob
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T112741.400.json
+
+###
+
+POST http://localhost:8080/red/packet/hand/out
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-27T111614.415.json
+
+###
+

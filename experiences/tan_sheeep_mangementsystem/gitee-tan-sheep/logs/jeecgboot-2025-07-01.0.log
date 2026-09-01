@@ -1,0 +1,423 @@
+2025-07-01 15:16:41.802 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2025-07-01 15:16:41.828 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 17.0.11 on Dragon with PID 24440 (D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by 朱小龙 in D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system)
+2025-07-01 15:16:41.829 [main] INFO  org.jeecg.JeecgSystemApplication:638 - The following 1 profile is active: "dev"
+2025-07-01 15:16:45.416 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-01 15:16:45.422 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-01 15:16:45.639 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 183 ms. Found 0 Redis repository interfaces.
+2025-07-01 15:16:45.889 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2025-07-01 15:16:45.889 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
+2025-07-01 15:16:45.891 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2025-07-01 15:16:46.871 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportCategoryDao }
+2025-07-01 15:16:46.872 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2025-07-01 15:16:46.872 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2025-07-01 15:16:46.873 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2025-07-01 15:16:46.873 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2025-07-01 15:16:46.873 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2025-07-01 15:16:46.873 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportJobDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportLogDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2025-07-01 15:16:46.874 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragCategoryDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragMapDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuReportIconLibDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragCompDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetHeadDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetItemDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetParamDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDataSourceDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageCompDao }
+2025-07-01 15:16:46.875 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageDao }
+2025-07-01 15:16:46.876 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragShareDao }
+2025-07-01 15:16:46.879 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor:426 - Cannot enhance @Configuration bean definition 'com.yomahub.liteflow.springboot.config.LiteflowMainAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2025-07-01 15:16:47.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.380 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.383 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.387 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.414 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.417 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerOptions' of type [io.lettuce.core.metrics.MicrometerOptions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.417 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$660/0x000001cc816f1468] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:47.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:48.328 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:48.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:48.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$3f6721b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.549 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.569 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$EnhancerBySpringCGLIB$$262be176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.928 [main] INFO  org.jeecg.config.shiro.ShiroConfig:288 - ===============(1)创建缓存管理器RedisCacheManager
+2025-07-01 15:16:50.935 [main] INFO  org.jeecg.config.shiro.ShiroConfig:309 - ===============(2)创建RedisManager,连接Redis..
+2025-07-01 15:16:50.947 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:50.968 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.099 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration' of type [com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration$$EnhancerBySpringCGLIB$$6b2c029e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow-com.yomahub.liteflow.springboot.LiteflowProperty' of type [com.yomahub.liteflow.springboot.LiteflowProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow.monitor-com.yomahub.liteflow.springboot.LiteflowMonitorProperty' of type [com.yomahub.liteflow.springboot.LiteflowMonitorProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.175 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflowConfig' of type [com.yomahub.liteflow.property.LiteflowConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.spi.spring.SpringAware' of type [com.yomahub.liteflow.spi.spring.SpringAware] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.279 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$b7d307d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:51.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-01 15:16:52.109 [main] INFO  io.undertow.servlet:389 - Initializing Spring embedded WebApplicationContext
+2025-07-01 15:16:52.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 10004 ms
+2025-07-01 15:16:52.638 [main] INFO  o.j.m.jmreport.config.init.JimuReportConfiguration:130 -  Init JimuReport Config [ Token Interceptor & Resource Locations ] 
+2025-07-01 15:16:52.668 [main] INFO  org.jeecg.modules.jmreport.config.init.LogoPrinter:34 - 
+================================================================================================
+            _ _ __  __       ____                       _   
+           | (_)  \/  |_   _|  _ \ ___ _ __   ___  _ __| |_ 
+        _  | | | |\/| | | | | |_) / _ \ '_ \ / _ \| '__| __|
+       | |_| | | |  | | |_| |  _ <  __/ |_) | (_) | |  | |_ 
+        \___/|_|_|  |_|\__,_|_| \_\___| .__/ \___/|_|   \__|
+                                      |_|                   
+		Version: 1.9.5
+		打造 “简单|智能|专业 ” 的数据可视化报表。
+		官网：https://jimureport.com
+================================================================================================
+
+2025-07-01 15:16:54.146 [main] INFO  com.alibaba.druid.pool.DruidDataSource:673 - {dataSource-1,master} inited
+2025-07-01 15:16:54.150 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:154 - dynamic-datasource - add a datasource named [master] success
+2025-07-01 15:16:54.151 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-07-01 15:16:54.253 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Scanning for classpath resources at 'classpath:db/callback' ...
+2025-07-01 15:16:54.254 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b ...
+2025-07-01 15:16:54.254 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Unable to resolve location classpath:db/callback.
+2025-07-01 15:16:54.255 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - AWS SDK available: false
+2025-07-01 15:16:54.257 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Google Cloud Storage available: false
+2025-07-01 15:16:54.258 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classpath resources at 'classpath:flyway/sql/mysql' ...
+2025-07-01 15:16:54.258 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Determining location urls for classpath:flyway/sql/mysql using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b ...
+2025-07-01 15:16:54.259 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning URL: file:/D:/idea_java_project/experiences/tan_sheeep_mangementsystem/gitee-tan-sheep/tan-yang-management-system/JeecgBoot-master/jeecg-boot/jeecg-module-system/jeecg-system-start/target/classes/flyway/sql/mysql
+2025-07-01 15:16:54.261 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - JBoss VFS v2 available: false
+2025-07-01 15:16:54.265 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning starting at classpath root in filesystem: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\
+2025-07-01 15:16:54.265 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql (flyway/sql/mysql)
+2025-07-01 15:16:54.266 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: D:\idea_java_project\experiences\tan_sheeep_mangementsystem\gitee-tan-sheep\tan-yang-management-system\JeecgBoot-master\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql\backup (flyway/sql/mysql)
+2025-07-01 15:16:54.272 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/README.md
+2025-07-01 15:16:54.273 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md
+2025-07-01 15:16:54.273 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql
+2025-07-01 15:16:54.274 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql
+2025-07-01 15:16:54.275 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/backup/V20240403.zip
+2025-07-01 15:16:54.275 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classes at classpath:flyway/sql/mysql
+2025-07-01 15:16:54.933 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter:44 - Flyway Community Edition 7.15.0 by Redgate
+2025-07-01 15:16:54.941 [main] INFO  o.f.core.internal.database.base.BaseDatabaseType:44 - Database: jdbc:mysql://127.0.0.1:3306/tan_yang_management (MySQL 8.4)
+2025-07-01 15:16:54.942 [main] DEBUG o.f.core.internal.database.base.BaseDatabaseType:40 - Driver  : MySQL Connector/J mysql-connector-java-8.0.27 (Revision: e920b979015ae7117d60d72bcc8f077a839cd791)
+2025-07-01 15:16:55.138 [main] DEBUG org.flywaydb.core.Flyway:40 - DDL Transactions Supported: false
+2025-07-01 15:16:55.143 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Schemas: 
+2025-07-01 15:16:55.144 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Default schema: null
+2025-07-01 15:16:55.196 [main] WARN  org.flywaydb.core.internal.database.base.Database:48 - Flyway upgrade recommended: MySQL 8.4 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.0.
+2025-07-01 15:16:55.200 [main] DEBUG o.f.c.internal.callback.SqlScriptCallbackFactory:40 - Scanning for SQL callbacks ...
+2025-07-01 15:16:55.201 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-01 15:16:55.202 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)
+2025-07-01 15:16:55.202 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-01 15:16:55.253 [main] DEBUG org.flywaydb.core.internal.command.DbValidate:40 - Validating migrations ...
+2025-07-01 15:16:55.265 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-01 15:16:55.267 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)
+2025-07-01 15:16:55.267 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-01 15:16:55.308 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-01 15:16:55.308 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql (filename: V3.8.0_2__airag_init_db.sql)
+2025-07-01 15:16:55.309 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql (filename: V3.8.0_1__airag_add_menu.sql)
+2025-07-01 15:16:55.310 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20240403.zip (filename: V20240403.zip)
+2025-07-01 15:16:55.310 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-01 15:16:55.445 [main] INFO  org.flywaydb.core.internal.command.DbValidate:44 - Successfully validated 3 migrations (execution time 00:00.189s)
+2025-07-01 15:16:55.490 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Current version of schema `tan_yang_management`: 3.8.0.2
+2025-07-01 15:16:55.493 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Schema `tan_yang_management` is up to date. No migration necessary.
+2025-07-01 15:16:55.502 [main] DEBUG org.flywaydb.core.Flyway:40 - Memory usage: 145 of 186M
+2025-07-01 15:16:55.503 [main] INFO  org.jeecg.config.flyway.FlywayConfig:127 - 【数据库升级】平台集成了MySQL库的Flyway，数据库版本自动升级! 
+2025-07-01 15:17:01.206 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:57 -  --- redis config init --- 
+2025-07-01 15:17:07.896 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2025-07-01 15:17:07.905 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2025-07-01 15:17:07.931 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-07-01 15:17:07.932 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2025-07-01 15:17:07.939 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2025-07-01 15:17:07.943 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2025-07-01 15:17:07.945 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'Dragon1751354227904'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2025-07-01 15:17:07.946 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2025-07-01 15:17:07.947 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2025-07-01 15:17:07.947 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4e5c1817
+2025-07-01 15:17:13.914 [main] INFO  c.y.l.process.impl.CmpAroundAspectBeanProcess:32 - component aspect implement[nodeProcessAspect] has been found
+2025-07-01 15:17:14.603 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[classifier] has been found
+2025-07-01 15:17:14.621 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[end] has been found
+2025-07-01 15:17:14.634 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[enhanceJava] has been found
+2025-07-01 15:17:14.650 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[http] has been found
+2025-07-01 15:17:14.661 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[knowledge] has been found
+2025-07-01 15:17:14.675 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[llm] has been found
+2025-07-01 15:17:14.685 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[reply] has been found
+2025-07-01 15:17:14.696 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[start] has been found
+2025-07-01 15:17:14.707 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[subflow] has been found
+2025-07-01 15:17:14.717 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[switch] has been found
+2025-07-01 15:17:16.696 [main] INFO  o.j.modules.jmreport.config.JmReportExecutorConfig:42 -  Init JimuReport Config [ 线程池 ] 
+2025-07-01 15:17:17.049 [main] INFO  org.jeecg.modules.drag.config.a.b.a:31 -  --- redis config init --- 
+2025-07-01 15:17:19.499 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:41 - Init Token ignoreAuthUrls Config [ 集合 ]  ：[/airag/app/queryById, /airag/chat/stop/*, /airag/chat/send, /airag/chat/conversation/update/title, /airag/chat/messages, /airag/chat/conversations, /airag/chat/messages/clear/*, /airag/chat/conversation/*, /test/jeecgDemo/html, /openapi/demo/index, /airag/flow/run]
+2025-07-01 15:17:19.501 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:49 - Init Token ignoreAuthUrls Config [ 耗时 ] ：7毫秒
+2025-07-01 15:17:19.535 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:50 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2025-07-01 15:17:24.056 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-01 15:17:24.179 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.message.websocket.WebSocket for path /websocket/{userId}
+2025-07-01 15:17:24.191 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragChannelWebSocket for path /dragChannelSocket/{token}
+2025-07-01 15:17:24.192 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragWebSocket for path /websocket/drag/{chartId}
+2025-07-01 15:17:24.192 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.demo.mock.vxe.websocket.VxeSocket for path /vxeSocket/{userId}/{pageId}
+2025-07-01 15:17:24.220 [main] INFO  c.y.liteflow.parser.factory.FlowParserProvider:193 - flow info loaded from class config with el,class=com.yomahub.liteflow.parser.sql.SQLXmlELParser
+2025-07-01 15:17:24.261 [main] INFO  c.yomahub.liteflow.parser.sql.read.AbstractSqlRead:186 - query sql: select id, application_name, chain from airag_flow where status = 'enable' and chain is not null
+2025-07-01 15:17:24.280 [main] INFO  c.y.liteflow.parser.sql.util.LiteFlowJdbcUtil:43 - use dataSourceName[dataSource],has found liteflow config
+2025-07-01 15:17:24.697 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.28.Final
+2025-07-01 15:17:24.723 [main] INFO  org.xnio:95 - XNIO version 3.8.7.Final
+2025-07-01 15:17:24.743 [main] INFO  org.xnio.nio:58 - XNIO NIO Implementation Version 3.8.7.Final
+2025-07-01 15:17:24.828 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2025-07-01 15:17:24.910 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer:119 - Undertow started on port(s) 8080 (http) with context path '/jeecg-boot'
+2025-07-01 15:17:25.576 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2025-07-01 15:17:25.598 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 44.683 seconds (JVM running for 45.733)
+2025-07-01 15:17:25.601 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:30 -  Init Code Generate Template [ 检测如果是JAR启动，Copy模板到config目录 ] 
+2025-07-01 15:17:25.654 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:33 -  Init Code Generate Template completed in 53 ms
+2025-07-01 15:17:25.685 [main] INFO  org.jeecg.JeecgSystemApplication:43 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/doc.html
+	External: 	http://172.26.78.140:8080/jeecg-boot/doc.html
+	Swagger文档: 	http://172.26.78.140:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2025-07-01 15:17:26.118 [RMI TCP Connection(9)-172.26.78.140] INFO  io.undertow.servlet:389 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 15:17:26.119 [RMI TCP Connection(9)-172.26.78.140] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2025-07-01 15:17:26.123 [RMI TCP Connection(9)-172.26.78.140] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 4 ms
+2025-07-01 15:17:26.577 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2025-07-01 15:17:26.794 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2025-07-01 15:17:26.795 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "Dragon1751013571282"'s failed in-progress jobs.
+2025-07-01 15:17:26.815 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_Dragon1751354227904 started.
+2025-07-01 15:18:24.398 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = e91848e385a27c0531d6bd098768b0b6ukdc，checkCode = ukdC
+2025-07-01 15:18:31.855 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:18:32.083 [XNIO-1 task-1] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：21ms
+2025-07-01 15:18:32.120 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）14毫秒
+2025-07-01 15:18:32.159 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)53毫秒
+2025-07-01 15:18:32.167 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:18:32.202 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：34毫秒
+2025-07-01 15:18:32.277 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：110毫秒
+2025-07-01 15:18:32.279 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：111毫秒
+2025-07-01 15:18:32.279 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:18:32.280 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)174毫秒
+2025-07-01 15:18:32.280 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 174毫秒
+2025-07-01 15:18:36.099 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:18:36.133 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)48毫秒
+2025-07-01 15:18:36.142 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)57毫秒
+2025-07-01 15:18:52.944 [XNIO-1 task-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:18:52.944 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/inbound_type
+2025-07-01 15:18:52.945 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:18:52.978 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:52.978 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:52.978 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:52.980 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:52.980 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:52.980 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:52.985 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:18:52.985 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : inbound_type
+2025-07-01 15:18:52.985 [XNIO-1 task-1] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:18:55.633 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:18:55.633 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/medicine_type
+2025-07-01 15:18:55.634 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:55.634 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:55.635 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:55.635 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:55.635 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:18:55.636 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : medicine_type
+2025-07-01 15:18:56.864 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:18:56.864 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:56.865 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:56.866 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:18:56.866 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:18:56.866 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:56.866 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:56.867 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:18:57.863 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:18:57.864 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:57.864 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:18:57.864 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:57.864 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:18:57.864 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:18:57.865 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:18:57.865 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:00.095 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:00.095 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:00.096 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:00.096 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:00.097 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:00.097 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:00.097 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:00.097 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:00.918 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:00.918 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:00.918 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:00.918 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:00.919 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:00.919 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:00.919 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:00.919 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:01.577 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:01.578 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:01.578 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:01.578 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:01.578 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:01.578 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:01.579 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:01.579 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:02.483 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:02.484 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:02.484 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:02.485 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:02.485 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:02.485 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:02.485 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:02.485 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:14.622 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:14.622 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/sale_type
+2025-07-01 15:19:14.623 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:14.623 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:14.623 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:14.623 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:14.624 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : sale_type
+2025-07-01 15:19:14.625 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:15.691 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/medicine_type
+2025-07-01 15:19:15.692 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:15.692 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:15.692 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:15.693 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:15.693 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : medicine_type
+2025-07-01 15:19:15.693 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:15.694 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:16.666 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:16.667 [XNIO-1 task-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:16.667 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:16.667 [XNIO-1 task-3] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/inbound_type
+2025-07-01 15:19:16.667 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:16.668 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:16.668 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:16.668 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:16.668 [XNIO-1 task-3] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:16.669 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:19:16.669 [XNIO-1 task-3] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : inbound_type
+2025-07-01 15:19:16.669 [XNIO-1 task-1] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:53.875 [XNIO-1 task-2] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/measurement_units
+2025-07-01 15:19:53.875 [XNIO-1 task-1] INFO  o.j.config.sign.interceptor.SignAuthInterceptor:36 - Sign Interceptor request URI = /jeecg-boot/sys/dict/getDictItems/material_type
+2025-07-01 15:19:53.876 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:53.876 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:50 - Param paramsJsonStr : {}
+2025-07-01 15:19:53.876 [XNIO-1 task-2] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:53.876 [XNIO-1 task-1] INFO  org.jeecg.config.sign.util.SignUtil:37 - Param Sign : E19D6243CB1945AB4F7202A1B00F77D5
+2025-07-01 15:19:53.877 [XNIO-1 task-2] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : measurement_units
+2025-07-01 15:19:53.877 [XNIO-1 task-1] INFO  o.j.modules.system.controller.SysDictController:185 -  dictCode : material_type
+2025-07-01 15:21:02.198 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 9b92ce88a71e647bd87d9bd3d23a484d54bp，checkCode = 54Bp
+2025-07-01 15:21:07.714 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:21:07.784 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）16毫秒
+2025-07-01 15:21:07.796 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)28毫秒
+2025-07-01 15:21:07.797 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:21:07.803 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：6毫秒
+2025-07-01 15:21:07.804 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：6毫秒
+2025-07-01 15:21:07.804 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：7毫秒
+2025-07-01 15:21:07.804 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:21:07.804 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)36毫秒
+2025-07-01 15:21:07.804 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 36毫秒
+2025-07-01 15:21:10.622 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:21:10.631 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)9毫秒
+2025-07-01 15:21:10.638 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)16毫秒
+2025-07-01 15:25:17.068 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:25:17.075 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)7毫秒
+2025-07-01 15:25:17.083 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)15毫秒
+2025-07-01 15:25:19.747 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:213 -  用户名:  管理员,退出成功！ 
+2025-07-01 15:25:20.284 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 0be418094e3c231d373b8771d55dde5cfpdv，checkCode = FPdv
+2025-07-01 15:26:39.867 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 4db7236286d9a7eedb1013a27bbf58afjz5m，checkCode = JZ5m
+2025-07-01 15:26:52.800 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:26:52.859 [XNIO-1 task-3] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-07-01 15:26:52.871 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）6毫秒
+2025-07-01 15:26:52.882 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)17毫秒
+2025-07-01 15:26:52.883 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:26:52.892 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：9毫秒
+2025-07-01 15:26:52.893 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：10毫秒
+2025-07-01 15:26:52.893 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：10毫秒
+2025-07-01 15:26:52.894 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:26:52.894 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)29毫秒
+2025-07-01 15:26:52.895 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 30毫秒
+2025-07-01 15:26:55.546 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:26:55.558 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)11毫秒
+2025-07-01 15:26:55.566 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)20毫秒
+2025-07-01 15:27:38.381 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:27:38.388 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)7毫秒
+2025-07-01 15:27:38.394 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)13毫秒
+2025-07-01 15:30:32.177 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:30:32.184 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)8毫秒
+2025-07-01 15:30:32.197 [XNIO-1 task-4] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)21毫秒
+2025-07-01 15:35:03.590 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:35:03.596 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)6毫秒
+2025-07-01 15:35:03.603 [XNIO-1 task-3] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)13毫秒
+2025-07-01 15:36:10.550 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:36:10.557 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)7毫秒
+2025-07-01 15:36:10.565 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)15毫秒
+2025-07-01 15:36:17.476 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:213 -  用户名:  管理员,退出成功！ 
+2025-07-01 15:36:20.705 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 16a3e9bff566f3f5f43d0005fb0f9fbc4ztq，checkCode = 4ztq
+2025-07-01 15:36:26.853 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:36:26.903 [XNIO-1 task-1] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：0ms
+2025-07-01 15:36:26.910 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）4毫秒
+2025-07-01 15:36:26.917 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)11毫秒
+2025-07-01 15:36:26.918 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:36:26.924 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：5毫秒
+2025-07-01 15:36:26.926 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：7毫秒
+2025-07-01 15:36:26.926 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：7毫秒
+2025-07-01 15:36:26.926 [XNIO-1 task-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:36:26.926 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)20毫秒
+2025-07-01 15:36:26.926 [XNIO-1 task-1] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 20毫秒
+2025-07-01 15:36:30.214 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:36:30.223 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)9毫秒
+2025-07-01 15:36:30.228 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)14毫秒
+2025-07-01 15:36:37.711 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:213 -  用户名:  管理员,退出成功！ 
+2025-07-01 15:36:38.126 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 0b3a3497309b40639d280791d867ff68auu7，checkCode = auu7
+2025-07-01 15:40:46.190 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = f6de81ccf1645308f234d03940cbdc9am0pa，checkCode = M0Pa
+2025-07-01 15:40:52.048 [XNIO-1 task-2] WARN  o.jeecg.modules.system.controller.LoginController:113 - 验证码错误，key= 1751355646140wo5m , Ui checkCode= mopa, Redis checkCode = null
+2025-07-01 15:40:52.097 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 13deac3c24d20042d688a5c36f2fcd84yz2u，checkCode = YZ2U
+2025-07-01 15:40:57.896 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:40:57.954 [XNIO-1 task-2] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：1ms
+2025-07-01 15:40:57.969 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）8毫秒
+2025-07-01 15:40:57.979 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)18毫秒
+2025-07-01 15:40:57.981 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:40:57.992 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：11毫秒
+2025-07-01 15:40:57.993 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：12毫秒
+2025-07-01 15:40:57.994 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：13毫秒
+2025-07-01 15:40:57.994 [XNIO-1 task-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:40:57.995 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)34毫秒
+2025-07-01 15:40:57.995 [XNIO-1 task-2] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 34毫秒
+2025-07-01 15:41:00.998 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:41:01.009 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)11毫秒
+2025-07-01 15:41:01.016 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)18毫秒
+2025-07-01 15:41:15.108 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:213 -  用户名:  管理员,退出成功！ 
+2025-07-01 15:41:15.230 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 4741e126091892c6b481f29af4afecbdwzma，checkCode = Wzma
+2025-07-01 15:41:19.955 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 8420968c6736c466d77f74def9e02b44p0n6，checkCode = P0N6
+2025-07-01 15:41:29.794 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = 7e62e0f9be8526f1253961250d120055dlpu，checkCode = DlPu
+2025-07-01 15:41:33.047 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:560 - 获取验证码，Redis key = f0c294b2224f6f373688df057ee935desubu，checkCode = SUbu
+2025-07-01 15:41:39.415 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysUserServiceImpl:951 -  登录接口用户的租户ID = 0
+2025-07-01 15:41:39.520 [XNIO-1 task-3] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：1ms
+2025-07-01 15:41:39.532 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:165 - 1 获取用户信息耗时（用户基础信息）7毫秒
+2025-07-01 15:41:39.553 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:180 - 2 获取用户信息耗时 (首页面配置)28毫秒
+2025-07-01 15:41:39.553 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:165 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:41:39.563 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:184 -       >>> 1 获取系统字典项耗时（SQL）：9毫秒
+2025-07-01 15:41:39.564 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:188 -       >>> 2 获取系统字典项耗时（Enum）：10毫秒
+2025-07-01 15:41:39.565 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:190 -       >>> end 获取系统字典库总耗时：10毫秒
+2025-07-01 15:41:39.565 [XNIO-1 task-3] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:191 - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-07-01 15:41:39.565 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:184 - 3 获取用户信息耗时 (字典数据)40毫秒
+2025-07-01 15:41:39.565 [XNIO-1 task-3] INFO  o.jeecg.modules.system.controller.LoginController:189 - end 获取用户信息耗时 40毫秒
+2025-07-01 15:41:41.535 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-01 15:41:41.545 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)11毫秒
+2025-07-01 15:41:41.551 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)17毫秒
+2025-07-01 15:42:06.414 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_Dragon1751354227904 paused.
+2025-07-01 15:42:06.443 [SpringApplicationShutdownHook] INFO  io.undertow:259 - stopping server: Undertow - 2.2.28.Final
+2025-07-01 15:42:06.466 [SpringApplicationShutdownHook] INFO  io.undertow.servlet:389 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-07-01 15:42:06.517 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2025-07-01 15:42:06.518 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_Dragon1751354227904 shutting down.
+2025-07-01 15:42:06.518 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_Dragon1751354227904 paused.
+2025-07-01 15:42:06.519 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_Dragon1751354227904 shutdown complete.
+2025-07-01 15:42:06.558 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:211 - dynamic-datasource start closing ....
+2025-07-01 15:42:06.567 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1880 - {dataSource-1} closing ...
+2025-07-01 15:42:06.583 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1953 - {dataSource-1} closed
+2025-07-01 15:42:06.584 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:215 - dynamic-datasource all closed success,bye

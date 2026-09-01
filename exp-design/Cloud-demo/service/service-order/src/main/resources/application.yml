@@ -1,0 +1,58 @@
+server:
+  port: 8000
+spring:
+  profiles:
+    active: prod
+    include: feign
+  application:
+    name: server-order
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      config:
+        namespace: ${spring.profiles.active:public}
+        import-check:
+          enabled: false  #禁用默认导入
+#         开启sentinel
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true
+
+logging:
+  level:
+    com.zxl.feign: debug
+feign:
+  sentinel:
+    enabled: true
+
+
+
+
+---
+spring:
+  config:
+    import:
+      - nacos:common.properties?group=order
+      - nacos:databases.properties?group=order
+    activate:
+      on-profile: dev
+---
+spring:
+  config:
+    import:
+      - nacos:common.properties?group=order
+      - nacos:databases.properties?group=order
+    activate:
+      on-profile: test
+---
+spring:
+  config:
+    import:
+      - nacos:common.properties?group=order
+      - nacos:databases.properties?group=order
+      - nacos:druid.properties?group=order
+    activate:
+      on-profile: prod
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //原生的aijx
+        function getMessage(){
+            var request = new XMLHttpRequest();  //!!
+
+            request.onreadystatechange=function (){
+                // readyState 1 2 3 4  4 代表接受到了响应
+                // status 响应状态码
+                if(request.status ==200 && request.readyState == 4){
+                    var input = document.getElementById("message");
+                    input.value = request.responseText
+                }
+            }
+
+            request.open("GET","/test?username=zhangshang");
+
+            request.send();
+        }
+
+    </script>
+</head>
+<body>
+<button onclick="getMessage()">按钮</button>
+<input type="text" id = "message" />
+</body>
+</html>

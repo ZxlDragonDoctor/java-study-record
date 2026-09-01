@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.hongmeng1.dao.IUserDAO">
+
+
+    <select id="getUserByUsername" resultType="com.example.hongmeng1.Model.pojo.User">
+        select * from `note_user`
+        where username = #{username}
+    </select>
+    <select id="getUsers" resultType="com.example.hongmeng1.Model.pojo.User">
+        select *
+        from note_user;
+    </select>
+    <select id="selectUserByUsername" resultType="com.example.hongmeng1.Model.pojo.User">
+        select * from note_user where username=#{username}
+    </select>
+    <insert id="addUser">
+        insert into note_user(username, password)
+        values (#{username}, #{password})
+    </insert>
+
+    <delete id="deleteUserByUsername">
+        delete
+        from note_user
+        where username = #{username}
+    </delete>
+</mapper>
+

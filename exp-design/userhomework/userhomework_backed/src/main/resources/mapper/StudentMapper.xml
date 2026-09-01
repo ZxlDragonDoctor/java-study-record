@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxl.userhomework_backed.mapper.StudentMapper">
+
+    <select id="findAllScoresBySubjectId" resultType="com.zxl.userhomework_backed.model.pojo.Scores">
+        select sub.subject_id, sub.name,sc.student_id,sc.score from subjects sub
+        JOIN scores sc ON sub.subject_id = sc.subject_id
+        <where>
+            <if test="subjectId != null">
+                AND sub.subject_id = #{subjectId}
+            </if>
+        </where>
+        order by sub.subject_id;
+    </select>
+    <select id="findAllScoresByStudentId" resultType="com.zxl.userhomework_backed.model.pojo.Scores">
+        select  s.id ,s.name, sc.subject_id, sc.score from students s
+        JOIN scores  sc ON s.id = sc.student_id
+        <where>
+            <if test="student_id != null">
+                AND  s.id = #{studentId}
+            </if>
+        </where>
+        order by s.id;
+    </select>
+    <select id="findAllStuScores" resultType="com.zxl.userhomework_backed.model.vo.StuScores">
+        SELECT
+        s.id,
+        s.name AS student_name,
+        sub.subject_id,
+        sub.name AS subject_name,
+        sc.score
+        FROM
+        students s
+        JOIN scores sc ON s.id = sc.student_id
+        JOIN subjects sub ON sc.subject_id = sub.subject_id
+        ORDER BY s.id, sub.subject_id;
+    </select>
+
+</mapper>

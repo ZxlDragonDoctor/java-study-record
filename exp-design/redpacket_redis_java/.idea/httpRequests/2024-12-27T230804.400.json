@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-12-27T15:08:04.406+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/red/packet/rob"
+}

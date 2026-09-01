@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-12-27T03:16:14.335+00:00",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "path": "/red/packet/hand/out"
+}

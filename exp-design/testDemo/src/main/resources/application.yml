@@ -1,0 +1,41 @@
+server:
+  port: 9999
+
+
+spring:
+  application:
+    name: schedule-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/studb
+    username: root
+    password: zxl123
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+  mail:
+    host: smtp.qq.com  # 邮件服务器地址
+    protocol: smtp
+    port: 465             # 邮件服务器端口，587 是常用端口
+    default-encoding: UTF-8
+    username: 2252406579@qq.com  # 发件人邮箱
+    password: zpxiqyhbplhfdjeg    # 发件人邮箱密码
+    properties:
+      mail:
+        smtp:
+          auth: true               # 启用身份验证
+          ssl:
+            enable: true           # 启用SSL加密
+            ssl:
+              protocols: TLSv1.2     # 指定SSL协议版本
+  security:
+    user:
+      name: zxl
+      password: zxl123
+#mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.zxl.userhomework_backed.model.pojo # 开启别名
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 控制台打印日志
+    mapUnderscoreToCamelCase: true #开启驼峰映射

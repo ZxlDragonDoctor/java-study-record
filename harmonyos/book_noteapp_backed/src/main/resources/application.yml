@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /zxl
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/note
+    username: root
+    password: zxl123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  config:
+    location: com.example.hongmeng1.conf
+#logging:
+#  level:
+#    com.example.hongmeng1.application: error
+
+#mybatis配置
+mybatis-plus:
+  mapper-locations: classpath:dao/*.xml
+  type-aliases-package: com.example.hongmeng1.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapUnderscoreToCamelCase: true
+
