@@ -20,9 +20,35 @@
 | `ccfTest` | - | CCF相关测试 |
 | `zxl_lqcode` | - | 代码练习项目 |
 | `zxlTank` | JavaSE | 坦克大战游戏项目 |
-| `exp-design` | MyBatis/Nginx | 实验设计相关资源 |
+| `exp-design` | 多种 | 实验设计项目集合（详见下表） |
 | `harmonyos` | HarmonyOS | 鸿蒙系统开发学习 |
 | `Testjava` | JavaSE | Java测试项目 |
+
+### exp-design 实验设计项目集合
+
+本目录包含各种后端开发技术的实验项目，涵盖设计模式、框架集成、中间件应用等多个方面。
+
+| 目录 | 技术栈 | 说明 |
+|------|--------|------|
+| `Cloud-demo` | Spring Cloud | 微服务架构示例项目 |
+| `Concurrent_enforce` | Java并发 | 并发编程实践与强制同步机制 |
+| `desagionPattern` | 设计模式 | 设计模式学习与实现 |
+| `junittest` | JUnit | 单元测试实践项目 |
+| `jwtTest` | JWT | JSON Web Token认证实现 |
+| `mapreduce_demo` | MapReduce | Hadoop MapReduce数据处理示例 |
+| `movie` | 全栈开发 | 电影推荐系统（含前端） |
+| `mvnDesigon` | Maven | Maven项目结构设计 |
+| `mybatisTest` | MyBatis | MyBatis ORM框架学习示例 |
+| `newuntitled` | JSP | JavaWeb JSP页面练习 |
+| `nginx-1.18.0` | Nginx | Nginx服务器配置与使用 |
+| `personsystm` | 个人信息系统 | 人员信息管理系统 |
+| `practice-git` | Git | Git版本控制练习 |
+| `redpacket_redis_java` | Redis + Java | Redis实现红包功能 |
+| `Seckill` | 秒杀系统 | 秒杀系统设计与实现 |
+| `springbootstart` | SpringBoot | SpringBoot快速入门项目 |
+| `springmvcTest` | SpringMVC | SpringMVC框架测试项目 |
+| `testDemo` | 测试 | 测试框架与工具实践 |
+| `userhomework` | 用户作业系统 | 用户作业管理系统 |
 
 ## 技术栈
 
