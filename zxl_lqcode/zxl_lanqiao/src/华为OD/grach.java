@@ -98,5 +98,23 @@ public class grach {
 
     }
 
+    int ans = Integer.MAX_VALUE;
+    int n = 20;
+    int[][] nums = new int[20][2];
+    boolean[] visted = new boolean[n];
+    // DFS暴力 解 无人无人机巡检航线规划 ,其实是回溯
+    public void dfs(int cur,int count,int core){
+        if(count == n){
+            ans = Math.min(ans,core);
+            return;
+        }
 
+        for(int i=0;i<n;i++){
+            if(visted[i]) continue;;
+            visted[i] = true;
+            int curCore = Math.abs(nums[cur][0]-nums[i][0]) + Math.abs(nums[cur][1]-nums[i][1]);
+            dfs(i,count+1,core+curCore);
+            visted[i] = false; // 回溯
+        }
+    }
 }
