@@ -52,6 +52,60 @@ public class DfsAndBfs {
 
     }
 
+    //  受限任务分配  DFS + 记忆化
+    int addCost =0,returnCost = 0;
+    int budget = 0; // 预算
+    int cost = 0; // c成本
+    int ops = 0; // 操作 数
+    long[][] memo;
+    boolean[] computex;
+
+    public  long[] dfsAndMemo(int x){
+        // 直接返回初始值 x == 1
+        if(x == 1) return new long[]{0,0};
+        // 使用记忆化，已经计算过的x的结果
+        if(computex[x]) return memo[x];
+        computex[x] = true;
+
+        long bestCost = Integer.MAX_VALUE;
+        long bestOps = Integer.MAX_VALUE;
+        // 任务为偶数，直接减半
+        if(x % 2 == 0){
+            //  返回的结果
+            long[] next = dfsAndMemo(x/2);
+            long cost = 1 + next[0];
+            long ops  = 1+ next[1];
+            if(cost< bestCost || (cost == bestCost && ops < bestOps)) {
+                 bestCost = cost;
+                 bestOps = ops;
+            }
+        }else{
+            // 任务为奇数， 两种处理方式
+            // 注意处理ops数相同，成本最低的方法
+            // 奇数 + 1
+            long[] next = dfsAndMemo((x+1)/2);
+            long cost = addCost +  1 + next[0];
+            long ops =  2 + next[1];
+            if(cost< bestCost || (cost == bestCost && ops < bestOps)) {
+                bestCost = cost;
+                bestOps = ops;
+            }
+
+            // 奇数 - 1
+            next =  dfsAndMemo((x-1)/2);
+            cost = returnCost + 1 +next[0];
+            ops = 2 + next[1];
+            if(cost< bestCost || (cost == bestCost && ops < bestOps)) {
+                bestCost = cost;
+                bestOps = ops;
+            }
+        }
+
+        memo[x] = new long[]{bestCost,bestOps};
+        return memo[x];
+
+
+    }
 
     public static void main(String[] args) {
         DfsAndBfs dfsAndBfs = new DfsAndBfs();
@@ -59,5 +113,6 @@ public class DfsAndBfs {
         int[][] edges = {{1,2},{1,3},{2,4},{3,5},{3,6}};
         System.out.println(Arrays.toString(dfsAndBfs.solve(n, edges)));
     }
+
 
 }
