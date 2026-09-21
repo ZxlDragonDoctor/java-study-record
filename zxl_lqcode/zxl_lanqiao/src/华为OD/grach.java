@@ -1,7 +1,9 @@
 package 华为OD;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class grach {
     public static void main(String[] args) {
@@ -117,4 +119,29 @@ public class grach {
             visted[i] = false; // 回溯
         }
     }
+
+    // 2026/9/9
+    public  int getResult(int n){
+        int[] arr = new int[1001];
+        for(int i=1;i<=7;i++){
+            arr[i] = i;
+        }
+
+        for(int i=8;i<=n;i++){
+            int[] window = new int[7];
+//            for(int j=i;j>=i-7;j--){
+//                window[i-j] = arr[j-1];
+//            }
+            for(int j=0;j<7;j++){
+                window[j] = arr[i-7+j];
+            }
+            Arrays.sort(window);
+            arr[i] = window[6]+window[5] - window[1] - window[0];
+        }
+
+        return  arr[n];
+
+     }
+
+
 }
