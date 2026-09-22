@@ -1,6 +1,5 @@
 package 华为OD;
 
-
 //抗洪救灾 类似岛屿问题 dfs
 public class DfsAndIsland {
     static int limH = 0;
@@ -33,6 +32,8 @@ public class DfsAndIsland {
         }
         System.out.println(ans);
 
+
+
     }
 
     //右下左上  8连通
@@ -52,7 +53,5 @@ public class DfsAndIsland {
                  dfs(g,newRow,newCol);
              }
         }
-
-
     }
 }
