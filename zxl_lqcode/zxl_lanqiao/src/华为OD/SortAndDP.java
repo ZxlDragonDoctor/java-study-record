@@ -17,7 +17,7 @@ public class SortAndDP {
         for(int i=0;i<n;i++){
             jobs[i][0] = times[i];
             jobs[i][1] = deadlines[i];
-            jobs[i][2] = profits[2];
+            jobs[i][2] = profits[i];
             totalTime += times[i];
             maxDeadline = Math.max(maxDeadline,jobs[i][1]);
         }
